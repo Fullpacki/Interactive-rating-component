@@ -2,7 +2,7 @@ import ThankYouImage from "../Images/illustration-thank-you.svg";
 
 function Submit() {
   return (
-    <div className="px-5 py-10 bg-gradient-to-t from-[#181e27] to-[#222a33] flex flex-col gap-10 rounded-xl">
+    <section className="px-5 py-10 bg-gradient-to-t from-[#181e27] to-[#222a33] flex flex-col gap-10 rounded-xl">
       {/* Header image & Rating selected*/}
       <main className="flex flex-col justify-center items-center gap-8">
         <img src={ThankYouImage} alt="" />
@@ -17,7 +17,7 @@ function Submit() {
           </p>
         </div>
       </main>
-    </div>
+    </section>
   );
 }
 
